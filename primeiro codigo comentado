@@ -1,0 +1,5 @@
+var http= require('http'); //importando o módulo http para dentro da variável
+var server= http.createServer(function(req, res){ //criando a variavel que recebe o createServer com parâmetros req e res (requisição e resposta, respectivamente). fazemos depois por que precisamos do http para criar um servidor. função anonima de callback
+	res.end('<html><body><h1>Primeiro projeto node</h1></zbody></html>')//resposta final, devolvendo um código html/string
+});
+server.listen(3000);//aqui nosos server agora está escutando a variável 3000
