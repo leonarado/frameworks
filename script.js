@@ -18,7 +18,7 @@ console.log("Escutando a porta 3000");//Esse é só para ver a porta que estamos
 //função do req = conseguir o que o usuário quer
 //funão do res = dar a resposta ao usuário com base na req
 
-/*
+/* 
 É necessário o node para executar esse passo a passo
 Para executar e testar um código, primeiro devemos criar e salvar um arquivo JS (Ctrl+S; Nome do arquivo: nome.js; Tipo do arquivo: Todos o arquivos) e por nosso código nele, no nosso caso, já temos ele explicado acima.
 Após termos nosso código no IDE e o salvar, apertamos as teclas Windows+R, ou usamos a barra de pesquisa do Windows, agora, pesquisamos por 'cmd' e damos enter.
